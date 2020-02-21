@@ -1,3 +1,8 @@
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-content: column;
+}
 .btn {
   display: flex;
   justify-content: center;
@@ -122,6 +127,11 @@ section {
 body {
   line-height: 1;
 }
+@media (max-width: 500px) {
+  body {
+    background-color: pink;
+  }
+}
 ol,
 ul {
   list-style: none;
@@ -134,7 +144,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -183,31 +193,23 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-nav {
-  padding: 2.5% 0;
-  width: 100%;
+header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  border-bottom: 2px dashed lightgrey;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  margin: 0 auto;
 }
-nav .anchors {
-  width: 40%;
+header nav {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  justify-content: space-around;
-  margin-right: 2%;
-  padding-right: 7%;
+  justify-content: space-between;
+  width: 250px;
+  margin-left: auto;
 }
-nav a {
-  font-size: 1.5rem;
-  color: black;
+header nav a {
   text-decoration: none;
-}
-nav h1 {
-  margin-left: 10%;
-  padding-left: 1% ;
+  color: black;
+  font-size: 1.6rem;
 }
 .footer {
   width: 100%;
