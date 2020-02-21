@@ -1,6 +1,6 @@
 // Mixins in here
 
-.custom-buttons(@bg-color @width @font-color) {
+.custom(@bg-color @width @font-color) {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,11 +13,11 @@
   color: @font-color;
 
   &:hover {
-    background-color: #00b3b3;
+    background-color: #21b8a4;
   }
 }
 
 
 .btn{
-    .custon-btn(#0066cc, 300px, black);
+    .custom(#04545a, 200px, white);
 }
