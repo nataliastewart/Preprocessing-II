@@ -18,6 +18,15 @@
 .btn:hover {
   background-color: #21b8a4;
 }
+@media (max-width:500px) {
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-content: column;
+    width: 100%;
+  }
+}
+/*---- Escaping starts here---*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)

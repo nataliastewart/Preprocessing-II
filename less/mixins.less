@@ -20,4 +20,13 @@
 
 .btn{
     .custom(#04545a, 200px, white);
+   
+    @media @mobile{
+      .centered();
+       width:100%;
+    }
 }
+
+/*---- Escaping starts here---*/
+
+@mobile:~"(max-width:500px)";
