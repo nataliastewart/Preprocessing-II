@@ -139,7 +139,6 @@ body {
 @media (max-width: 500px) {
   body {
     padding: 0 5%;
-    background-color: pink;
   }
 }
 ol,
