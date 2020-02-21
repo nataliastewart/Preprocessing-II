@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #006666;
+  background-color: #04545a;
   margin: 0 10px 20px;
   width: 200px;
   height: 45px;
@@ -11,7 +11,7 @@
   color: white;
 }
 .btn:hover {
-  background-color: #00b3b3;
+  background-color: #21b8a4;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
