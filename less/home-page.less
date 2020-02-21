@@ -59,6 +59,11 @@
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+      @media(max-width:500px){
+        .centered();
+        width:100%;
+      }
+    }
 
     img {
       border-radius: 10px;
@@ -71,15 +76,23 @@
     display: flex;
     justify-content: space-between;
 
+    @media(max-width:500px){
+      .centered();
+     
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      @media(max-width:500px){
+        width:100%;
+      }
    }
   }
 
 
   
-}
+
 
 
 
