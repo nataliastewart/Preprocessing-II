@@ -222,6 +222,9 @@ header {
     align-content: column;
   }
 }
+header h1 {
+  padding-top: 5%;
+}
 @media (max-width:500px) {
   header h1 {
     padding-top: 3%;
