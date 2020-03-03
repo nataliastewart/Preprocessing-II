@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #04545a;
+  background-color: black;
   margin: 0 10px 20px;
   width: 200px;
   height: 45px;
@@ -16,7 +16,7 @@
   color: white;
 }
 .btn:hover {
-  background-color: #21b8a4;
+  background-color: #d46a23a9;
 }
 @media (max-width:500px) {
   .btn {
@@ -170,6 +170,7 @@ html {
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: ;
 }
 h1,
 h2,
@@ -220,12 +221,33 @@ header {
 header nav {
   display: flex;
   justify-content: space-between;
-  width: 250px;
+  width: 400px;
 }
 header nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin: 0 10px 20px;
+  width: 300px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: #ffffff;
   text-decoration: none;
-  color: black;
+  color: #f5eeee;
   font-size: 1.6rem;
+}
+header nav a:hover {
+  background-color: #d46a23a9;
+}
+@media (max-width:500px) {
+  header nav a {
+    display: flex;
+    flex-direction: column;
+    align-content: column;
+    width: 100%;
+  }
 }
 .footer {
   width: 100%;
@@ -234,12 +256,9 @@ header nav a {
 }
 .footer p {
   text-align: center;
-  color: #212529;
+  color: white;
   font-size: 1.6rem;
   padding: 20px;
-}
-.home .top {
-  border-bottom: 2px dashed lightgrey;
 }
 .home .top .funbus-pic {
   margin: 20px 0;

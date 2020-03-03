@@ -15,7 +15,7 @@ header{
     nav{
         display:flex;
         justify-content:space-between;
-        width:250px;
+        width:400px;
       
     //     @media(max-width:500px){
     //      display:flex;
@@ -24,8 +24,14 @@ header{
 
         a{
             
+            .custom(black, 300px, rgb(255, 255, 255));
+   
+            @media @mobile{
+              .centered();
+               width:100%;
+            }
             text-decoration: none;
-            color:black;
+            color:rgb(245, 238, 238);
             font-size: 1.6rem;
         }
     }
