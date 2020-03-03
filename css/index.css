@@ -232,6 +232,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   width: 400px;
+  padding-top: 3%;
 }
 header nav a {
   display: flex;
